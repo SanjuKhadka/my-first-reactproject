@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, TextInput, StyleSheet } from 'react-native';
 
 export default function App() {
-  const [name, setName] = useState(''); // state to store input
+  const [name, setName] = useState(''); // state to store input 123
 
   return (
     <View style={styles.container}>
