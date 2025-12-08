@@ -4,6 +4,8 @@ import { View, Text, TextInput, StyleSheet } from 'react-native';
 export default function App() {
   const [name, setName] = useState(''); // state to store input 123
 
+  // Added comment to check new feature branch
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Enter your name:</Text>
